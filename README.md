@@ -13,3 +13,8 @@ Please read [guidelines for contribution](./CONTRIBUTING.md) for details on our 
 2. Don't add too basic programs like addition of two numbers or hello world.
 
 3. Follow the above set pattern while making PRs otherwise it won't be accepted.
+
+# Code of Conduct
+
+We are dedicated to providing a harassment­ free experience for everyone, and we do not tolerate harassment of participants in any form. We ask you to be considerate of others and behave professionally and respectfully to all other participants. 
+ 
