@@ -21,11 +21,11 @@
 
 3. #### Add your program in its respective language folder. If language doesn't exist then create its folder.
 
-4. Commit and Push your program to your branch.
+4. #### Commit and Push your program to your branch.
 
 ```
     git push origin [branch name]
 ```
-5. Create a Pull request.
+5. #### Create a Pull request.
 
 Congratulations you have successfully created your first pull request.
