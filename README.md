@@ -4,4 +4,4 @@ This repository is made for the first time contributors. Contribute to this repo
 
 # How to Contribute
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [guidelines for contribution](./CONTRIBUTING.md)CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
