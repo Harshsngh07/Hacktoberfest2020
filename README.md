@@ -12,4 +12,4 @@ Please read [guidelines for contribution](./CONTRIBUTING.md) for details on our 
 
 2. Don't add too basic programs like addition of two numbers or hello world.
 
-### follow above set pattern while making PRs otherwise it won't be accepted.
+3. Follow the above set pattern while making PRs otherwise it won't be accepted.
