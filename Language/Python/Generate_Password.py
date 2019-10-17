@@ -1,3 +1,5 @@
+# python program to generate random password 
+
 import  random
 import string
 def create_password(n):
