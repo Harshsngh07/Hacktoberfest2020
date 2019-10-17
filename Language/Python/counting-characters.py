@@ -1,3 +1,5 @@
+# This is a simple Python program that counts the number of characters within the provided string
+
 def how_many_times_in(string):
 
     char_results = dict()
