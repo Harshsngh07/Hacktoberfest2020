@@ -1,3 +1,5 @@
+//java program to calculate timetaken by two strings to concate.
+
 public class ConcatTest{  
     public static String concatWithString()    {  
         String t = "Java";  
