@@ -1,4 +1,4 @@
-//Python program to count the number of characters in a string.
+//java program to count the number of characters in a string.
 
 import java.util.HashMap;
 class EachCharCountInString
