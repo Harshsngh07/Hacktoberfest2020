@@ -1,3 +1,5 @@
+# first method finds the nth fibonacci number. second method outputs the fibonacci sequence to the nth place.
+
 def fibonacci_of_a_number(number)
     num1 = 0
     num2 = 1
