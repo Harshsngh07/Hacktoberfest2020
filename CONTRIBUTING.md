@@ -1,4 +1,4 @@
-# Guidlines for adding files.
+# Guidelines for adding files.
 
 1. Every file should first **state the purpose of the program at the Top** (before the code). For example : *If you're creating a program to print the prime numbers in a range, then you should mention that at the beginning of the file by commenting it out*.
 
