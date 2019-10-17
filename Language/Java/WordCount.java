@@ -1,4 +1,4 @@
-//Python program to count number of words in a string.
+//java program to count number of words in a string.
 public class WordCount 
 {
 	static int wordcount(String string)  
