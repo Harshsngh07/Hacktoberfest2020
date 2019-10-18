@@ -6,6 +6,14 @@
 class BinarySearch
 {
     public $position = 0;
+
+    /**
+     * Binary search function
+     *
+     * @param array $hayStack
+     * @param int $needle
+     * @return int
+     */
     public function search($hayStack, $needle)
     {
         if (count($hayStack) === 0) {
