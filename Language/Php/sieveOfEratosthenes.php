@@ -1,8 +1,8 @@
-/**/**
+<?php
+/**
  * List prime numbers in a range using Sieve of eratosthenes algorithm
  */
 
-<?php
 class Sieve
 {
     public $range;
