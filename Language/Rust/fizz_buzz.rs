@@ -14,7 +14,9 @@ fn fizz_buzz(number: u32) -> () {
         // if number is divisible by 5, print "Buzz"
 		} else if i % 5 == 0 {
 			println!("Buzz");
-		}
+        } else {
+            println!("{}", i);
+        }
 	}
     
 }
