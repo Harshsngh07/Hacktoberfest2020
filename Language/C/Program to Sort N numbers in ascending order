@@ -1,0 +1,33 @@
+//@mhdshibin contributor
+//Program to sort n integers in ascending order
+#include <stdio.h>
+
+void main()
+{
+    int no[50];
+    int i=0,j=0,n,temp;
+    printf("Enter the limit of numbers\n");
+    scanf("%d",&n);
+    printf("Enter the numbers\n");
+    for(i=0;i<n;++i)
+    {
+        scanf("%d",&no[i]);
+    }
+    printf("The sorted number list is\n");
+    for(i=0;i<n;++i)
+    {
+        for(j=i;j<n;++j)
+        {
+            if(no[i]>no[j])
+            {
+                temp=no[i];
+                no[i]=no[j];
+                no[j]=temp;
+            }
+        }
+    }
+    for(i=0;i<n;++i)
+    {
+        printf("%d ",no[i]);
+    }
+}
