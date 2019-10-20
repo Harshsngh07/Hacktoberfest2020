@@ -4,7 +4,7 @@
 
 2. Don't add too basic programs like *addition of two numbers* or *hello world*.
 
-3. Follow the above set pattern while making PRs otherwise it won't be accepted.
+3. Follow the above set pattern while making PRs otherwise it won't be merged.
 
 # Contributing
 
