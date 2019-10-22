@@ -1,0 +1,14 @@
+# PROGRAM TO SWAP 3 NUMBER WITHOUT USING EXTRA SAPCE
+def swap3(a, b, c): 
+	a = a + b + c # (a = 60) 
+	b = a - (b+c) # (b = 60 – (20+30) =10) 
+	c = a - (b+c) # (c = 60 – (10 + 30) = 20) 
+	a = a - (b+c) #(a = 60 – (10 + 20) = 30) 
+	print("After swapping a =",a,", b =",b,", c =",c) 
+if __name__ == '__main__': 
+	a = 10
+	b = 20
+	c = 30
+	print("Before swapping a =",a,", b =",b,", c =",c) 
+	swap3(a, b, c) 
+	
