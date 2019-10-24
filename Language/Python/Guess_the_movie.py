@@ -27,6 +27,6 @@ def play():
                 else:
                     print(letter,"Not found")
         else:
-            trun = turn + 1
+            turn = turn + 1
 
 
