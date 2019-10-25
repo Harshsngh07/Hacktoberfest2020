@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-public class Insertion {
+/**
+ * Sorts a user inputed list from smallest to biggest using insertion sort
+ */
+public class InsertionSort {
 
-	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
@@ -43,7 +45,6 @@ public class Insertion {
 	}
 
 	private static void InsertionSort(int[] list) {
-		
 		int held;
 		
 		for (int x = 1; x < list.length; x++) {
