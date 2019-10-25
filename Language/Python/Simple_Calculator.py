@@ -2,43 +2,27 @@
 # By yash872
 # I wrote a simple calculator to compute addition, subtraction, multiplication, division, and modulo. It's not the best grammar-wise since I was lazy and tried to use as few "if"s as possible, but it works.
 
-op_to_str = {"+":"add",'-':'subtract','*':'multiply','/':'divide',
-             '%':'modulo'}
+num1=int(input("Enter first number"))
 
-def intput(prompt=""):
-    """returns int(input(prompt))"""
-    return int(input(prompt))
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+print("5. Modulo")
 
-def ask_till_valid(prompt,answers):
-    """input(<prompt>) until answer is one of the valid answers supplied in
-    answers."""
-    ans = input(prompt)
-    while ans.lower() not in answers:
-        ans = input(prompt)
-    return ans
+choice = input("Enter choice(1/2/3/4):")
 
-def main():
-    x = intput("\nWhat number? ")
-    op = ask_till_valid("Which operation ? (+,-,*,/,%) ",["+","-","*","/","%"])
-    y = intput(
-        "What number would you like to "+op_to_str.get(op)+" "+str(x)+" by? ")
-    if op == '+':
-        t = x+y
-    elif op == '-':
-        t = x-y
-    elif op == '*':
-        t = x*y
-    elif op == '/':
-        t = x/y
-    elif op == '%':
-        t = x%y
-    else:
-        t = ""
-    print("Your total is",t)
-    again = ask_till_valid("Use again? (YES/NO)",['yes','no'])
-    if again == 'yes':
-        main()
-    else:
-        pass
+num2 = int(input("Enter second number: "))
 
-main()
+if choice == "1":
+   print (num1 + num2)
+elif choice == '2':
+   print (num1 - num2)
+elif choice == '3':
+   print (num1 * num2)
+elif choice == '4':
+   print (num1 / num2)
+elif choice == '5':
+   print (num1 % num2)
+else:
+   print("Invalid input")
