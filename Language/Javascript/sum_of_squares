@@ -1,0 +1,15 @@
+/**
+ * @param n a natural number
+ * @return the sum of all naturals to n. eq: n = 3  will return 1 + 2 + 3 = 6
+ */
+function sumOfNaturals(n) {
+  return n * (n + 1) / 2;
+}
+
+/**
+ * @param n a natural number
+ * @return the sum of all naturals squared to n. eq: n = 3  will return 1*1 + 2*2 + 3*3 = 14
+ */
+function sumOfSquaredNaturals(n) {
+  return n * (n + 1) * (2*n + 1) / 6;
+}
