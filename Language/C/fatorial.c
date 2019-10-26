@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h>
-
+//This program is used to calculate the fatorial of a chosen number
 void Fatorial (double n){
 	double fat=1;
 	double nc = n;
