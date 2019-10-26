@@ -1,7 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+// create the set, a set is stored as an integer vector where each element is an index, 
+//but its structure is actually a forest.
+//each element in the set has a mother node, that is represented by a integer in its position 
+//inside the vector.
+// 
+// if an element has a positive value it represents its mothernode 
+//if an element has an negative value it means this element is the highest element in the tree
+// and the negative value is the tree height
 int* create_set(int n)
 {
 	int *set = (int*)malloc(n*sizeof(int));
@@ -12,6 +19,8 @@ int* create_set(int n)
 	return set;
 }
 
+//union two sets
+//the i and j variables must be the highest element in their respectives trees
 void union_function(int *set,int i, int j)
 {
 	if(set[i] <= set[j])
@@ -26,6 +35,7 @@ void union_function(int *set,int i, int j)
 	}
 }
 
+//finds the top of the tree, i.e the highest element in the tree
 int find_function(int *set, int i)
 {
 	int mother_node = set[i];
@@ -37,7 +47,8 @@ int find_function(int *set, int i)
 		return mother_node;
 	}
 }
-void imprime(int* set, int n)
+//function to print the sets
+void print(int* set, int n)
 {
 	int i;
 	for (i = 0; i < n; ++i)
