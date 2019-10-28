@@ -1,0 +1,7 @@
+fun main()
+{
+  val name = readline()
+  println("Hello $name how are you today?")
+  val response = readline()
+  println("Oh you are $response, well I am glad to hear that")
+}
