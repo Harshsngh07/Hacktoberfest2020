@@ -4,15 +4,18 @@
 //
 // lib to use:
 
+// sum 13 to char and return it
 fn cp13(c: char) -> char {
     ((c as u8) + 13) as char
 }
 
+// sub 13 from the char and return it
 fn cm13(c: char) -> char {
     ((c as u8) - 13) as char
 }
 
 pub fn rot13(value: &str) -> String {
+    // change chars and return the string
     value.chars().map(|c| {
         match c {
             'a' ..= 'm' => cp13(c),
