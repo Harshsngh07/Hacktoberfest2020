@@ -1,0 +1,56 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.Enumeration;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+
+/**
+ * 
+ * @author sathish.saminathan
+ *
+ */
+public class ExtractTextFileInZip {
+
+	/**
+	 * Main Method which will take the Zip file in the mentioned location which
+	 * should contains multiple text file with some content in it. This class will
+	 * unzip the zip files and print the content of the text files in the console
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		// Local path of the zip file with complete absolute directory to be mentioned
+		String zipFileLocation = "C:\\Users\\sathish.saminathan\\Desktop\\Test1.zip";
+		ZipFile zipFile;
+		try {
+			zipFile = new ZipFile(zipFileLocation);
+
+			Enumeration<? extends ZipEntry> entries = zipFile.entries();
+			String str = "";
+			StringBuffer buf = new StringBuffer();
+			while (entries.hasMoreElements()) {
+				ZipEntry entry = entries.nextElement();
+				InputStream stream = zipFile.getInputStream(entry);
+
+				BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+				if (stream != null) {
+					while ((str = reader.readLine()) != null) {
+						buf.append(str + "\n");
+					}
+				}
+				String textContent = buf.toString();
+				String textContentRemovedNewLine = textContent.replaceAll("[\\\r\\\n]+", " ");
+				// Final text extracted is printed here
+				System.out.println(textContentRemovedNewLine);
+
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
