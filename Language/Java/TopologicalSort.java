@@ -1,3 +1,25 @@
+// Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering 
+// of vertices such that for every directed edge uv, vertex u comes before v in the ordering. 
+// Topological Sorting for a graph is not possible if the graph is not a DAG.
+
+// Resources : 
+// https://en.wikipedia.org/wiki/Topological_sorting
+// https://www.geeksforgeeks.org/topological-sorting/
+
+// The implementation for Topological Sort/Toplogical_Sort_Java/TopologicalSort.java
+// is based on Depth First Search.
+
+// Please note that the directed acyclic graph implemented in 
+// Topological Sort/Toplogical_Sort_Java/TopologicalSort.java
+// looks like this:
+
+//  5 ------> 0 <-------- 4
+//  |                     |
+//  |                     |
+//  |                     |
+// \|/                   \|/
+//  *                     *
+//  2 ------> 3 --------> 1
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Stack;
@@ -50,15 +72,7 @@ public class TopologicalSort {
     }
     //driver method
     public static void main(String[] args) {
-        //The directed acyclic graph that is created here:
-        //  5 ------> 0 <-------- 4
-        //  |                     |
-        //  |                     |
-        //  |                     |
-        // \|/                   \|/
-        //  *                     *
-        //  2 ------> 3 --------> 1
-		Graph g = new Graph(6); 
+        Graph g = new Graph(6); 
         g.addEdge(5, 2); 
         g.addEdge(5, 0); 
         g.addEdge(4, 0); 
