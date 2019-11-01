@@ -8,7 +8,7 @@
 
 # Contributing
 
-1. #### Star the repository and clone it into your local machine.
+1. #### Fork the repository and clone it into your local machine.
 ```
     git clone https:/github.com/<username>/<repository>.git
 ```
