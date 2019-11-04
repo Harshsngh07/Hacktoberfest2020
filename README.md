@@ -9,4 +9,4 @@ Please read [guidelines for contribution](./CONTRIBUTING.md) for details on our 
 
 # Code of Conduct
 
-We are dedicated to providing a harassment­ free experience for everyone, and we do not tolerate harassment of participants in any form. We ask you to be considerate of others and behave professionally and respectfully to all other participants. 
+We are dedicated in providing a harassment­ free experience for everyone, and we do not tolerate harassment of participants in any form. We ask you to be considerate of others and behave professionally and respectfully to all other participants. 
