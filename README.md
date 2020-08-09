@@ -1,3 +1,9 @@
+<p align="center">
+          <img src="https://img.shields.io/github/issues/Harshsngh07/Simple-Hacktoberfest2019?style=flat-square"> <img src="https://img.shields.io/github/forks/Harshsngh07/Simple-Hacktoberfest2019?style=social">
+<img src="https://img.shields.io/github/stars/Harshsngh07/Simple-Hacktoberfest2019">
+                                                                    <img src="https://img.shields.io/github/license/Harshsngh07/Simple-Hacktoberfest2019"></p>
+
+
 # Hacktoberfest 2019
 
 This repository is made for the first time contributors. Contribute to this repository and earn a free t-shirt from Digital Ocean.
