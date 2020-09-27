@@ -2,6 +2,7 @@
 a Maze problem using backtracking
 It basically outputs the shortest path from the 
 origin to the destination of the maze.
+The rat can move only in two directions: forward and down.
 Created by: Supr3me-Code
 Check my github for more projects. Cheers!! */
 #include <stdio.h> 
