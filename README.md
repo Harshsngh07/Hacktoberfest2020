@@ -1,8 +1,8 @@
 <p align="center">
           <img src="https://img.shields.io/github/issues/Harshsngh07/Simple-Hacktoberfest2019?style=flat-square"> <img src="https://img.shields.io/github/forks/Harshsngh07/Simple-Hacktoberfest2019?style=social">
 <img src="https://img.shields.io/github/stars/Harshsngh07/Simple-Hacktoberfest2019">
-
-<img src="https://img.shields.io/github/license/Harshsngh07/Simple-Hacktoberfest2019"></p>
+<img src="https://img.shields.io/github/license/Harshsngh07/Simple-Hacktoberfest2019">
+</p>
 <!--
 <p align="center">
   <img src="https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg" alt="hacktoberfest">
