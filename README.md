@@ -1,14 +1,16 @@
 <p align="center">
           <img src="https://img.shields.io/github/issues/Harshsngh07/Simple-Hacktoberfest2019?style=flat-square"> <img src="https://img.shields.io/github/forks/Harshsngh07/Simple-Hacktoberfest2019?style=social">
 <img src="https://img.shields.io/github/stars/Harshsngh07/Simple-Hacktoberfest2019">
-                                                                    <img src="https://img.shields.io/github/license/Harshsngh07/Simple-Hacktoberfest2019"></p>
+
+<img src="https://img.shields.io/github/license/Harshsngh07/Simple-Hacktoberfest2019"></p>
+<!--
 <p align="center">
   <img src="https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg" alt="hacktoberfest">
-</p> 
+</p> --> 
 
-# Hacktoberfest 2020
-
-This repository is made for the first time contributors. Contribute to this repository and earn a free t-shirt from Digital Ocean.
+# Algorithms
+This repo contains different types of algorithms in different languages.
+This repository is made for the first time contributors. Contribute to this repository and earn a free t-shirt from Digital Ocean and be a part of Hacktoberfest.
 
 # How to Contribute
 
