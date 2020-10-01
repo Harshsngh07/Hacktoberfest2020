@@ -8,7 +8,7 @@
   <img src="https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg" alt="hacktoberfest">
 </p> --> 
 
-# Algorithms
+# Hacktoberfest2020
 This repo contains different types of algorithms in different languages.
 This repository is made for the first time contributors. Contribute to this repository and earn a free t-shirt from Digital Ocean and be a part of Hacktoberfest.
 
