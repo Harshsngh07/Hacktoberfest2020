@@ -10,12 +10,13 @@ import (
  
 func main(){
  
-    array := generatearray(10)
+    array := generatearray(10)  // assign 10 numbers for the array
     fmt.Println("\nUnsorted Array: \n\n", array)
     bubbleSort(array)
     fmt.Println("\nSorted Array: \n\n", array, "\n")
 }
- 
+
+// array (size: 10) will be filled with randomly generated numbers in between -100 to +100
 func generatearray(size int) []int {
  
     array := make([]int, size, size)
