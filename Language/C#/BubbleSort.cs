@@ -18,9 +18,10 @@ namespace BubbleSort {
             Console.WriteLine("Bubble Sort");
             Console.Write("Initial array is: ");
 
-            for (int i = 0; i < arr.Length; i++) {
-                Console.WriteLine(arr[i] + " ")
-            }
+
+            // Prints the unchanged array
+            foreach (int p in arr)
+              Console.Write(p + " ")
 
             for (int j = 0; j <= arr.Length - 2; j++) 
             {
@@ -29,6 +30,7 @@ namespace BubbleSort {
 		            {
                     if (arr[i] > arr[i + 1]) 
 		                {
+                        // If a number is bigger than the successor they get swaped.
                         temp = arr[i + 1];
                         arr[i + 1] = arr[i];
                         arr[i] = temp;
@@ -37,10 +39,12 @@ namespace BubbleSort {
             }
 
         Console.WriteLine("Sorted:");
-         
+        
+        // Prints the sorted key
         foreach (int p in arr)
             Console.Write(p + " ");
          
+        // Holds the console window on windows open, since it closes immediately after program end.
         Console.ReadKey();
 
       }

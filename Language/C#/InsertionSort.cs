@@ -1,8 +1,16 @@
+/*
+ *  Author: Lockna
+ *  This is a simple Insertion Sort example. 
+ *  It does it as most implementations of this sort.
+ */
+
+
+
 using System;
 
-namespace InsertionSortDemo {
+namespace InsertionSort {
 
-   class Example {
+   class Insertion {
 
       static void Main(string[] args) {
 
@@ -12,9 +20,9 @@ namespace InsertionSortDemo {
          Console.WriteLine("Insertion Sort");
          Console.Write("Initial array is: ");
 
-         for (i = 0; i < arr.Length; i++) {
-            Console.Write(arr[i] + " ");
-         }
+         // Prints the initial array
+         foreach (int p in arr)
+            Console.Write(p + " ")
 
          for (i = 1; i < arr.Length; i++) {
             val = arr[i];
@@ -30,9 +38,8 @@ namespace InsertionSortDemo {
          }
 
          Console.Write("\nSorted Array is: ");
-         for (i = 0; i < arr.Length; i++) {
-            Console.Write(arr[i] + " ");
-         }
+         foreach (int p in arr)
+            Console.Write(p + " ")
       }
    }
 }
