@@ -58,11 +58,13 @@ ll d[N], ad[N];
 queue<int> val[N];
 priority_queue<pair<ll,int> > q;
  
-void add(int x,int y,int z)
+// adding all the vertices  
+void add(int x,int y,int z) 
 {
 	e[++cnt].to = y, e[cnt].w = z, e[cnt].nxt = head[x], head[x] = cnt;
 } 
- 
+
+// push the vertices in the priority queue
 void dj()
 {
 	memset(d, 0x3f3f3f3f, sizeof(d));
@@ -84,7 +86,8 @@ void dj()
 		}
 	}
 }
- 
+
+// calculate to see where is the shortest path	
 void calc()
 {
 	ll mx = 0;
@@ -92,7 +95,7 @@ void calc()
 		while(val[i].size())
 		{
 			int x = val[i].front();
-            val[i].pop();
+            val[i].pop(); // pop after the vertex being used
 			if(ad[x] < i) continue;
 			for(int i = head[x]; i; i=e[i].nxt)
 			{
@@ -121,7 +124,7 @@ int main()
 		add(x,y,z);
 	}
 	dj();
-	while(aq--)
+	while(aq--) // input lines
 	{
 		scanf("%d%d", &opt, &c);
 		if(opt==1) cout << (d[c]==inf?-1:d[c]) <<endl;
