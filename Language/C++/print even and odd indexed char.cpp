@@ -1,3 +1,8 @@
+Here we are printing the odd and even indexed characters separately. 
+   The even index is divisible by 2 whereas odd index is not .
+   So we use the above logic to solve the problem.
+
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
