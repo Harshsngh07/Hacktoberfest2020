@@ -1,3 +1,9 @@
+Here we have a program to form the union of two sets which are sorted . 
+    ex: u={1,2,3}
+        v={5,6,7}
+union of u and v is A={1,2,3,5,6,7}
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
