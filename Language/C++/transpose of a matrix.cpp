@@ -1,5 +1,8 @@
+The transpose of a matrix is simply a flipped version of the original matrix. 
+We can transpose a matrix by switching its rows with its columns. We denote the transpose of matrix A by AT. 
+
 #include<bits/stdc++.h>
-#define REP(i,a,r) for(int i=0;i<r;i++)
+#define REP(i,a,r) for(int i=0;i<r;i++)           //defining a for loop and use a shorter notation for it 
 #define REP1(j,b,c) for(int j=0;j<c;j++)
 
 using namespace std;
@@ -13,7 +16,7 @@ int main ()
    {
        REP1(j,b,c)
        {
-           cin>>arr[i][j];
+           cin>>arr[i][j];  //scanning the input
        }
    }
    cout<<"The transform of the matrix is: "<<endl;
@@ -21,7 +24,7 @@ int main ()
    {
        REP1(j,b,c)
        {
-           cout<<arr[j][i]<<" ";
+           cout<<arr[j][i]<<" "; //printing the transpose of the matrix 
        }
        cout<<" "<<endl; 
    }
