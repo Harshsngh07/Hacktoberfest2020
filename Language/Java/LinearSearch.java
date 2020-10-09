@@ -13,7 +13,7 @@ class LinearSearch {
         array = new int[n];  
    
         System.out.println("Enter those " + n + " elements");  
-   
+        //forloop to take input from the user
         for(c = 0; c < n; c++) {
             array[c] = in.nextInt();  
         }  
@@ -21,7 +21,7 @@ class LinearSearch {
    
         System.out.println("Enter value to find");  
         search = in.nextInt();  
-   
+        //forloop to traverse through the array to find the element that satisfy the condition
         for (c = 0; c < n; c++) {  
             if (array[c] == search) {  
                 System.out.println(search + " is present at location " + (c + 1));  
