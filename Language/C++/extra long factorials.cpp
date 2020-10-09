@@ -1,4 +1,4 @@
-This is a program to find the factorial of a verry large number . 
+This is a program to find the factorial of a very large number . 
 
 
 #include<bits/stdc++.h> 
