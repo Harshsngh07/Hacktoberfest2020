@@ -1,6 +1,6 @@
 #include <stdio.h> 
-void cyclicSwap(int *a, int *b,int *c);
-void cyclicSwap(int* a, int* b, int* c) 
+void cyclicSwap(int *a, int *b,int *c);  //declaration of the function 
+void cyclicSwap(int* a, int* b, int* c) //function definition
 { 
     int temp = *b; 
     *b = *a; 
@@ -16,7 +16,7 @@ int main()
     printf("Value before swapping:\n"); 
     printf("a = %d \nb = %d \nc = %d\n", a, b, c); 
   
-    cyclicSwap(&a, &b, &c); 
+    cyclicSwap(&a, &b, &c);              //function call 
   
     printf("Value after swapping:\n"); 
     printf("a = %d \nb = %d \nc = %d", a, b, c); 
