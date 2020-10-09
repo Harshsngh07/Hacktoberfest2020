@@ -1,3 +1,6 @@
+This is a program to find the factorial of a verry large number . 
+
+
 #include<bits/stdc++.h> 
 using namespace std;  
 #define MAX 500 
