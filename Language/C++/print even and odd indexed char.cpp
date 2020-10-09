@@ -11,9 +11,9 @@ int main() {
     for(int i = 0; i < T; i++)
     {
         scanf("%s", S);
-        for(int j = 0; j < strlen(S); j++){
-            if(j % 2 == 0){
-                printf("%c", S[j]);
+        for(int j = 0; j < strlen(S); j++){          //strlen is used to find the length of the string 
+            if(j % 2 == 0){                         //if index is divisible by 2 completely then it is even indexed else odd 
+                printf("%c", S[j]);         
             }
         }
         printf(" ");    
