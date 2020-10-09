@@ -1,3 +1,6 @@
+// This program illustrates the concept of Circular Header Linked List.
+// Methods for Inserting a node, Deleting a node and displaying the contents of the List have been programmed.
+// No global variables are used in the implementation of the program.
 #include <iostream>
 
 using namespace std;
