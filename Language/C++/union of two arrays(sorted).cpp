@@ -2,6 +2,8 @@ Here we have a program to form the union of two sets which are sorted .
     ex: u={1,2,3}
         v={5,6,7}
 union of u and v is A={1,2,3,5,6,7}
+So we are only printing the total number of elements in the set A after union og u and v.
+    For above the answer is 6
 
 
 #include<bits/stdc++.h>
