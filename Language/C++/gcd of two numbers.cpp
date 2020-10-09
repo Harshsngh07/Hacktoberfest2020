@@ -1,3 +1,6 @@
+This program is used to find the gcd of a number. We are using the logic of Euclid Division lemma.
+  gcd(a,b) = gcd(b,a') where a'= a%b
+
 #include<bits/stdc++.h>
 using namespace std;
 
