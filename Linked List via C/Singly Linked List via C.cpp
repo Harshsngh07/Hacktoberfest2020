@@ -1,4 +1,4 @@
-/*----------------------   C program for Singly Linked-List with all operations   --------------------------------*/
+/*----------------------   C program for implementing Singly Linked-List with all operations in Menu Driven Format   --------------------------------*/
 
 
 #include<stdio.h>
