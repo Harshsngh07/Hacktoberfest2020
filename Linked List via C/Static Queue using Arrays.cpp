@@ -1,3 +1,5 @@
+//Implementation of Queue data structure using Arrays
+
 #include<stdlib.h>
 #include<stdio.h>
 
