@@ -1,3 +1,5 @@
+//Implementation of Stack data structure using Linked list
+
 #include<stdlib.h>
 #include<stdio.h>
 
