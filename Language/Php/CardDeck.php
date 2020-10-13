@@ -34,7 +34,7 @@ class CardDeck
     protected $deck;
     protected $discard;
 
-    public function __construct() {
+    public function __construct($shuffle = false) {
         $deck = [];
 
         foreach (self::SUITS as $suit) {
@@ -45,6 +45,10 @@ class CardDeck
 
         $this->deck = $deck;
         $this->discard = [];
+
+        if ($shuffle) {
+            $this->shuffle();
+        }
     }
 
     /**
