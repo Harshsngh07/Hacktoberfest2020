@@ -1,3 +1,4 @@
+// implementation of stack operations such as push, pop, peek and display
 #include<stdio.h>
 #define MAX 5
 struct stack
