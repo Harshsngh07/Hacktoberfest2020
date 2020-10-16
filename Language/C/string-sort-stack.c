@@ -1,3 +1,4 @@
+//sorting the string using stack
 #include<stdio.h>
 #include<string.h>
 
