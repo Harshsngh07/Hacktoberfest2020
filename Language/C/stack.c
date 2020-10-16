@@ -1,3 +1,4 @@
+//Stack basic opertions
 #include<stdio.h>
 
 struct ArrayStack{
