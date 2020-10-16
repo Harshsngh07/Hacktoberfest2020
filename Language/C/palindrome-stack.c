@@ -1,3 +1,4 @@
+//palindrome checking using stack
 #include<stdio.h>
 #include<string.h>
 
