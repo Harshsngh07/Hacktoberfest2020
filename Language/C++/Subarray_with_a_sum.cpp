@@ -1,3 +1,7 @@
+/* This program checks and finds whether a subarray with a given sum exists in an array or not. */
+
+
+
 #include <iostream>
 using namespace std;
 
