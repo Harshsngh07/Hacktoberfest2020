@@ -1,3 +1,6 @@
+//contiguous indexed and linked memory allocations
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
