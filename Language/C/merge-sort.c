@@ -1,3 +1,4 @@
+//merge sort algorithm
 #include<stdio.h>
 
 int temp[20];
