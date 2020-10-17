@@ -1,0 +1,45 @@
+//Determine the row index with minimum number of ones. The given 2D matrix has only zeroes and ones and also the matrix is sorted row wise. If two or more rows have same number of 1's than print the row with smallest index.
+#include <stdio.h>
+#include <limits.h>
+int main()
+{
+    int t;
+    scanf("%d\n",&t);
+    while(t--)
+    {
+        int n,m;
+        scanf("%d %d",&n,&m);
+        
+        int arr[n][m];
+        
+        for(int i=0;i<n;i++)
+        for(int j=0;j<m;j++)
+        scanf("%d ",&arr[i][j]);
+        
+        int min_count=INT_MAX,ind,count;
+        
+        for(int i=0;i<n;i++)
+        {
+             count=0;
+            for(int j=0;j<m;j++)
+            {
+                if(arr[i][j]==1)
+                count++;
+            }
+            if(count!=0)
+            {
+            if(count<min_count){
+            min_count=count;
+            ind=i;
+            
+            }
+            }
+        }
+        
+        if(count==0)
+        printf("-1\n");
+        else
+        printf("%d\n",ind);
+        
+    }
+}
