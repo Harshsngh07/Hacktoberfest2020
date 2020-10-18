@@ -1,4 +1,4 @@
-#program to create a binary tree and to perform inorder,preorder,postorder traversals
+//program to create a binary tree and to perform inorder,preorder,postorder traversals
 
 
 #include <stdio.h> 
