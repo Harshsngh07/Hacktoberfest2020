@@ -7,6 +7,7 @@ numbers=[x for x in range(1,length+1)]
 i=sum=0
 j=len(numbers)-1
 
+#Sum of the front and rear elements of trhe list 'numbers'
 while i<len(numbers) and j>=0:
     print("{} + {} = {}".format(numbers[i],numbers[j],(numbers[i]+numbers[j])))
     while i<j:
