@@ -6,7 +6,7 @@
 // function. It returns location
 // of x in given array arr[l..r]
 // is present, otherwise -1
-function binarySearch($arr, $l, $r, $x)
+function binarySearchRecursive($arr, $l, $r, $x)
 {
     if ($r >= $l)
     {
@@ -24,14 +24,14 @@ function binarySearch($arr, $l, $r, $x)
         // present in left subarray
         if ($arr[$mid] > $x)
         {
-            return binarySearch($arr, $l,
+            return binarySearchRecursive($arr, $l,
                 $mid - 1, $x);
         }
 
         // Else the element can only
         // be present in right subarray
 
-        return binarySearch($arr, $mid + 1,
+        return binarySearchRecursive($arr, $mid + 1,
             $r, $x);
     }
 
@@ -45,7 +45,7 @@ function binarySearch($arr, $l, $r, $x)
 $arr    = array(2, 3, 4, 10, 40);
 $n      = count($arr);
 $x      = 10;
-$result = binarySearch($arr, 0, $n - 1, $x);
+$result = binarySearchRecursive($arr, 0, $n - 1, $x);
 if (($result == -1))
 {
     echo "Element is not present in array";
