@@ -45,7 +45,7 @@ int main()
     cout<<endl;
     intersection(a,b,m,n);
 }
-
+//Function which does the intersection of two sets
 void intersection(int a[10],int b[10],int m,int n)
 {
     int c[10],i,j,k = 0,flag = 0;
@@ -54,6 +54,7 @@ void intersection(int a[10],int b[10],int m,int n)
         flag = 0;
         for(int j = 0; j < n; j++)
         {
+            //If the elements of both sets are same then flag will turn to 1 and the loop will break
             if(a[i] == b[j])
             {
                 flag = 1;
