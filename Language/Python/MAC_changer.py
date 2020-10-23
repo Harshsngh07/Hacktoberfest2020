@@ -1,4 +1,4 @@
-#MAC Changer
+#MAC_Changer
 #!/usr/bin/env python
 
 import subprocess
