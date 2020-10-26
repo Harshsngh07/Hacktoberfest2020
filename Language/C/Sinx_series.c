@@ -40,6 +40,7 @@ int main()
 }
 int factorial(int fj)
 {
+    //find factorial
     int i, fac = 1;
     for (i = 1; i <= fj; i++)
     {
@@ -49,6 +50,7 @@ int factorial(int fj)
 }
 float power(float fx, int fj)
 {
+    //find the number raised to a power
     float pow = 1.0;
     int i = 0;
     for (i = 0; i < fj; i++)
