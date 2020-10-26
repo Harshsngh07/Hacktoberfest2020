@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int n,sum=0,b,rem;
+    printf("Enter the number- ");
+    scanf("%d",&n);
+    b=n;
+    while(n>0)
+    {
+      rem=n%10;
+      sum=(sum*10)+rem;
+      n=n/10;
+    }
+if(b==sum)
+printf("Palindrome");
+else
+printf("Not palindrome");
+
+    return 0;
+}
+
