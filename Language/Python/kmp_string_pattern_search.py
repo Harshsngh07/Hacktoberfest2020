@@ -26,18 +26,18 @@ def kmp_search(txt, pattern):
 
     txt_index = 0
     pat_index = 0
-    while pat_index < text_len:
-        if pattern[txt_index] == txt[pat_index]:
+    while txt_index < text_len:
+        if pattern[pat_index] == txt[txt_index]:
             pat_index += 1
             txt_index += 1
-        if txt_index == pat_len:
-            print("Found pattern at index " + str(pat_index-txt_index))
-            txt_index = longest_prefix_suffix[txt_index-1]
-        elif pat_index < text_len and pattern[txt_index] != txt[pat_index]:
-            if txt_index != 0:
-                txt_index = longest_prefix_suffix[txt_index-1]
+        if pat_index == pat_len:
+            print("Found pattern at index " + str(txt_index - pat_index))
+            pat_index = longest_prefix_suffix[pat_index-1]
+        elif txt_index < text_len and pattern[pat_index] != txt[txt_index]:
+            if pat_index != 0:
+                pat_index = longest_prefix_suffix[pat_index-1]
             else:
-                pat_index += 1
+                txt_index += 1
 
 txt = input("Enter the string to be searched: ") #"AAAAAACAAAAAAFAAAAAB"
 pattern = input("Enter the substring to look for: ") #"AAAB"
