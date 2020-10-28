@@ -3,11 +3,15 @@
 function mergeSort(array1, array2){
 
     // Checking if the array1,2 exists or not.
-    if(array1.length === 0){
+    function length(arr)
+    {
+        return arr.length;
+    }
+    if(length(array1) === 0){
         return array2;
     } 
 
-    if(array2.length === 0){
+    if(length(array2) === 0){
         return array2;
     }
 
