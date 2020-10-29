@@ -3,19 +3,16 @@ def swap(list, po1, po2):
     return list
 
 def selection(list):
-    op = 0
     mini = list[0]
-    list2 = []
     for i in range(0, len(list)):
-        mini = i
+        mini = i#take first number to the left
         for ii in range(i + 1, len(list)):
-            op += 1
-            if (list[mini] > list[ii]):
+            if (list[mini] > list[ii]):#if it is bigger than a number on his right, swap them...
                 mini = ii
         swap(list, i, mini)
     return list
 
-lst = input("Enter a list of numbers separated by spaces\n").split()
+lst = input("Enter a list of numbers separated by spaces\n").split()#get input list and split it
 lst = selection(lst)
 print("sorted list: ", end = '')
 print(*lst, sep = ' ')
