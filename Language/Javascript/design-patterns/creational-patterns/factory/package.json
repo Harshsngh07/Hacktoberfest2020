@@ -1,0 +1,15 @@
+{
+    "name": "cats",
+    "version": "1.0.0",
+    "description": "A cat creator factory demo.",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Claude Müller",
+    "license": "MIT",
+    "dependencies": {
+        "request": "^2.88.2"
+    }
+}
