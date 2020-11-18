@@ -2,7 +2,8 @@
 
 //Importing header files with functions we are using
 #include<stdio.h>
-
+#include<stdlib.h>
+void recall();
 int main()
 {
   //Code starts here
@@ -19,24 +20,24 @@ int main()
   //Switch function
   switch(ch)
   {
-    case:1
-    printf("Result:-%d\n",a+b);
+    case 1:
+    printf("Result:-%d+%d=%d\n",a,b,a+b);
     //Calling recall function
     recall();
     break;
 
-    case:2
-    printf("Result:-%d\n",a-b);
+    case 2:
+    printf("Result:-%d-%d=%d\n",a,b,a-b);
     recall();
     break;
 
-    case:3
-    printf("Result:-%d\n",a*b);
+    case 3:
+    printf("Result:-%d*%d=%d\n",a,b,a*b);
     recall();
     break;
 
-    case:4
-    printf("Result:-%d\n",a/b);
+    case 4:
+    printf("Result:-%d/%d=%d\n",a,b,a/b);
     recall();
     break;
 
@@ -54,15 +55,21 @@ void recall()
 {
   int i=2;
 
-  printf("Due want to calculate again:\nEnter 1 for YES\nEnter 2 for NO\n");
+  printf("Do you want to calculate again:\nEnter 1 for YES\nEnter 2 for NO\n");
   scanf("%d",&i);
 
   if(i==1)
   {
     main();
   }
-  else if(i!=1 && i!=2)
+  else if(i==2)
   {
-    printf("SOMETHING WENT WRONG!!");
+    printf("EXCITING CALCULATOR");
+    exit(0);
+  }
+  else
+  {
+    printf("INVALID");
+    recall();
   }
 }
